@@ -181,3 +181,29 @@ Lesedi la Batho/
 │   └── R (5).jpg
 │
 └── README.md
+Lesedi La Batho - Sitemap
+website site map 
+
+ Home (index.html)
+  |
+  +-- About Us (about.html)
+  |     +-- Our Story
+  |     +-- Team
+  |     +-- Mission
+  |
+  +-- Services (services.html)
+  |     +-- Education
+  |     +-- Mentorship
+  |     +-- Skills Training
+  |
+  +-- News & Updates (news.html)
+  |
+  +-- Contact (contact.html)
+  |
+  +-- Enquiry / Get Involved (enquiry.html)
+
+Supporting folders:
+  /css - style.css
+  /js - script.js
+  /images 
+  
