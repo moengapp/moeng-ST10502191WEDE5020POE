@@ -61,7 +61,7 @@ function validateField(input) {
     error.className = 'error-text';
     error.setAttribute('role', 'alert');
     error.style.cssText = 'color:#D32F2F;font-size:13px;margin:6px 0 10px;display:flex;align-items:center;gap:6px;';
-    error.innerHTML = `⚠️ ${message}`;
+    error.innerHTML = ` ${message}`;
     input.insertAdjacentElement('afterend', error);
     return false;
   } else {
@@ -103,7 +103,7 @@ function initEmailFunctionality() {
       const submitBtn = form.querySelector('button[type="submit"], button');
       const originalText = submitBtn.textContent;
       submitBtn.disabled = true;
-      submitBtn.textContent = 'Sending... ⏳';
+      submitBtn.textContent = 'Sending... ';
       submitBtn.style.opacity = '0.7';
 
       const formData = new FormData(form);
@@ -126,7 +126,7 @@ function initEmailFunctionality() {
         });
 
         
-        showFeedback(`✅ Success! Thank you ${data['Full Name'] || ''}. Your message has been sent to info@lesedilabatho.org. We will reply within 24 hours.`, 'success');
+        showFeedback(` Success! Thank you ${data['Full Name'] || ''}. Your message has been sent to lesedi la batho. We will reply within 24 hours.`, 'success');
         form.reset();
         form.querySelectorAll('input, textarea, select').forEach(i => { i.style.borderColor = '#ccc'; i.style.background = '#fff'; });
 
