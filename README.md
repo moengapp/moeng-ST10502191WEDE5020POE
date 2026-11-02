@@ -1,3 +1,4 @@
+
 # Lesedi la Batho NPO Website - WEDE5020 POE Part 2
 **Be the Light - Community Support NPO in Mabopane, Gauteng**
 
@@ -42,4 +43,4 @@ This website was developed for Lesedi la Batho NPO to improve online presence, a
 - Dynamic content search filter for news
 - Google Maps embed for Mabopane centre location
 
-## 3. File Structure (As per your screenshot 11/2/2026)
+
